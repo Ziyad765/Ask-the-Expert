@@ -1,0 +1,74 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.futuristic-container {
+    max-width: 1200px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Title Styling */
+.main-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Teacher Detail Card Styling */
+.teacher-detail-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.teacher-detail-card img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 75px;
+    margin-bottom: 15px;
+}
+
+.teacher-detail-card h2 {
+    color: #00c6ff;
+    margin-bottom: 10px;
+}
+
+.teacher-detail-card p {
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Button Styling */
+button {
+    background-color: #00c6ff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0078a0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

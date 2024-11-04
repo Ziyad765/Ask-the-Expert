@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+
+    <div class="background-image">
+        <div class="login-container">
+            <h1>Ask the Expert</h1>
+            <br>
+            <br>
+        
+            <br>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <span class="error-message" id="nameError"></span>
+
+                <select id="class" required>
+                    <option value="" disabled selected>Select Class</option>
+                    <option value="S1">S1</option>
+                    <option value="S2">S2</option>
+                    <option value="S3">S3</option>
+                    <option value="S4">S4</option>
+                    <option value="S5">S5</option>
+                    <option value="S6">S6</option>
+                    <option value="S7">S7</option>
+                    <option value="S8">S8</option>
+                </select>
+                <span class="error-message" id="classError"></span>
+
+                <select id="department" required>
+                    <option value="" disabled selected>Select Department</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Chemical">Chemical</option>
+                    <option value="Electronics and Communication">Electronics and Communication</option>
+                    <option value="Applied Electronics">Applied Electronics</option>
+                    <option value="Civil Engineering">Civil Engineering</option>
+                </select>
+                <span class="error-message" id="departmentError"></span>
+
+                <input type="number" id="admissionNumber" placeholder="Admission Number (4 digits)" required>
+                <span class="error-message" id="admissionNumberError"></span>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
