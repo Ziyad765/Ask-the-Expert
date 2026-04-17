@@ -105,7 +105,8 @@ Contributions are welcome.
 3. Commit your changes (`git commit -m "feat: add your feature"`)
 4. Push the branch and open a Pull Request
 
-Please keep changes focused, tested (where applicable), and clearly documented.
+Please keep changes focused, tested (where applicable), and clearly documented.  
+Since no open-source license is currently defined, please coordinate with the repository owner before redistributing or using contributions outside this repository.
 
 ## License
 
