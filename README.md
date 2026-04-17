@@ -4,7 +4,7 @@ Ask-the-Expert is a frontend web application that helps students find suitable f
 
 ## Features
 
-- Student login form with basic validation (name and admission number)
+- Student login form with basic validation (name, class, department, and 4-digit admission number)
 - Department-wise expert browsing
 - Search experts by name or specialization
 - Project description matching to suggest relevant teachers
